@@ -1,0 +1,24 @@
+{
+  "name": "ajs01-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx ./src/index.js",
+    "test": "npx cross-env NODE_OPTIONS=--experimental-vm-modules jest ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan4te/ajs01-jest.git"
+  },
+  "author": "dan4te",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan4te/ajs01-jest/issues"
+  },
+  "homepage": "https://github.com/Dan4te/ajs01-jest#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
