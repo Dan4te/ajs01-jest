@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "npx ./src/index.js",
-    "test": "npx cross-env NODE_OPTIONS=--experimental-vm-modules jest ./src"
+    "test": "jest ./src"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Dan4te/ajs01-jest#readme",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
   }
 }
